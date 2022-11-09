@@ -114,14 +114,22 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
+    - identifier: Categories
       name: categories
       url: /categories/
       weight: 10
-    - identifier: tags
+    - identifier: Tags
       name: tags
       url: /tags/
       weight: 20
+    - identifier: Archieve
+      name: archieve
+      url: /archieve/
+      weight: 30
+    - identifier: Search
+      name: search
+      url: /search/
+      weight: 40
     # - identifier: example
     #   name: example.org
     #   url: https://example.org
